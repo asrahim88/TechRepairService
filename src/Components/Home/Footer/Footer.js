@@ -17,9 +17,9 @@ const Footer = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos eum est? Animi, ipsa culpa?</p>
                     </div>
                     <div className="social">
-                        <a href="#"><FontAwesomeIcon className=" fs-4 ms-2 textColor link" icon={faFacebookF} /></a>
-                        <a href="#"><FontAwesomeIcon className="fs-4 ms-2 textColor link" icon={faTwitter} /></a>
-                        <a href="#" className='text-decoration-none textColor'><FontAwesomeIcon className=" fs-4 ms-2 link" icon={faLinkedinIn} /></a>
+                        <a target="_blank" href="https://www.facebook.com/taskin.taskinahmed.5/"><FontAwesomeIcon className=" fs-4 ms-2 textColor link" icon={faFacebookF} /></a>
+                        <a href="https://twitter.com/AsRahim2" target="_blank"><FontAwesomeIcon className="fs-4 ms-2 textColor link" icon={faTwitter} /></a>
+                        <a href="https://www.linkedin.com/in/abdur-rahim-501a80182/" className='text-decoration-none textColor' target="_blank"><FontAwesomeIcon className=" fs-4 ms-2 link" icon={faLinkedinIn} /></a>
                     </div>
                 </div>
                 <div className='col-md-3 textColor'>
