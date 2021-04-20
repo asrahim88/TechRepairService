@@ -1,4 +1,5 @@
 import React from 'react';
+import PaymentMethod from '../../Booking/PyamentMethod/PaymentMethod';
 import CourierService from '../CourierService/CourierService';
 import Footer from '../Footer/Footer';
 import HandleProject from '../HandleProject/HandleProject';

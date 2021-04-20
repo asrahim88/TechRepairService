@@ -17,7 +17,7 @@ const CourierService = () => {
                             No more waiting in line with our professional services
                         </p>
                         <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt velit perferendis sed? Alias, reprehenderit atque adipisci minus repellat omnis quas debitis sed recusandae blanditiis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt velit perferendis sed? Alias, reprehenderit atque adipisci minus repellat omnis quas debitis sed recusandae blanditiis!
                         </p>
                     </div>
                 </div>

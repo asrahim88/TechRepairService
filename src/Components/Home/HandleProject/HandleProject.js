@@ -33,7 +33,7 @@ const HandleProject = () => {
                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" ></textarea>
                                 <label for="floatingTextarea2">Your Massage Here</label>
                             </div>
-                            <div className = "d-flex justify-content-center">
+                            <div className="d-flex justify-content-center">
                                 <button className="btn-info rounded w-25">Submit</button>
                             </div>
                         </form>

@@ -1,0 +1,15 @@
+.bookingBox {
+    height: 755px;
+    background-color: #84d4df32; 
+    border-radius: 5px;
+    box-shadow: 2px 5px 15px 5px gray;
+}
+.parentComponent{
+    background-color: rgba(142, 221, 252, 0.219);
+}
+.bookingFormBox{
+    width: 800px;
+    background-color: rgb(235, 241, 243);
+    border-radius: 5px;
+}
+

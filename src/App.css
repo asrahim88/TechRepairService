@@ -7,3 +7,6 @@
 .width{
   width: 150px !important;
 }
+.appContainer{
+  background-color: rgba(222, 238, 237, 0.288) !important;
+}
