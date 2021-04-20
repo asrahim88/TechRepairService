@@ -63,7 +63,7 @@ const AddService = () => {
 
     // Submit Service or Handle Submit form
     const handleSubmit = (e) => {
-        const url = `http://localhost:8000/addService`;
+        const url = `https://powerful-lake-10754.herokuapp.com/addService`;
         fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

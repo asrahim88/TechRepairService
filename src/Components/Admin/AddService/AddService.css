@@ -1,8 +1,8 @@
 .formBox{
     width: 760px;
     height: 500px;
-    border: 1px solid red;
-
+    background-color: rgb(233, 241, 241);
+    border-radius: 10px;
 }
 .filed{
     width: 350px;

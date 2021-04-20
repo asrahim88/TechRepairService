@@ -9,10 +9,11 @@ const PaymentCard = ({handlePayment}) => {
     const elements = useElements();
 
     const handleSubmit = async (event) => {
+        event.preventDefault();
         if (!stripe || !elements) {
             return;
         }
-
+        
         const cardElement = elements.getElement(CardElement);
 
         const { error, paymentMethod } = await stripe.createPaymentMethod({
@@ -30,7 +31,7 @@ const PaymentCard = ({handlePayment}) => {
             handlePayment(paymentMethod.id)
             console.log('[PaymentMethod]', paymentMethod);
         }
-        event.preventDefault();
+        
     };
 
 

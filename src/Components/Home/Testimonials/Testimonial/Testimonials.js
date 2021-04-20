@@ -6,7 +6,7 @@ import './Testimonials.css';
 const Testimonials = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:8000/getReview')
+        fetch('https://powerful-lake-10754.herokuapp.com/getReview')
             .then(response => response.json())
             .then(data => setReviews(data));
     }, [])

@@ -19,16 +19,6 @@ const SideBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link to='/bookingList' className="text-decoration-none">
-                    <div className="d-flex">
-                        <div className="m-3">
-                            <FontAwesomeIcon className="fs-4 text-info" icon={faClipboardList} />
-                        </div>
-                        <div className="ml-1 mt-2 pt-1">
-                            <p className="text-info">Booking List</p>
-                        </div>
-                    </div>
-                </Link>
                 <Link to="/review" className="text-decoration-none">
                     <div className="d-flex">
                         <div className="m-3">
@@ -36,6 +26,16 @@ const SideBar = () => {
                         </div>
                         <div className="ml-1 mt-2 pt-1">
                             <p className="text-info">Review</p>
+                        </div>
+                    </div>
+                </Link>
+                <Link to='/bookingList' className="text-decoration-none">
+                    <div className="d-flex">
+                        <div className="m-3">
+                            <FontAwesomeIcon className="fs-4 text-info" icon={faClipboardList} />
+                        </div>
+                        <div className="ml-1 mt-2 pt-1">
+                            <p className="text-info">Booking List</p>
                         </div>
                     </div>
                 </Link>

@@ -31,7 +31,7 @@ const Review = () => {
         newCustomer.customerName = data.UserName;
         setReview(newCustomer);
 
-        const url = `http://localhost:8000/addReview`;
+        const url = `https://powerful-lake-10754.herokuapp.com/addReview`;
         fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

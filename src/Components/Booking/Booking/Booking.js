@@ -17,7 +17,7 @@ const Booking = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:8000/singleGetService/${serviceId}`)
+        fetch(`https://powerful-lake-10754.herokuapp.com/singleGetService/${serviceId}`)
             .then(response => response.json())
             .then(data => setSingleService(data[0]));
     }, [serviceId])
@@ -28,11 +28,10 @@ const Booking = () => {
         setInfo(data)
 
     };
-    console.log('uuuu', info)
     const handlePaymentSuccess = (paymentId) => {
 
         const order = {...loggedInUser, booking: info,  paymentId, orderTime: new Date()}
-        fetch('http://localhost:8000/addOrder', { 
+        fetch('https://powerful-lake-10754.herokuapp.com/addOrder', { 
             method: 'POST',
             headers: { 'Content-Type': "application/json"},
             body: JSON.stringify(order)
@@ -52,7 +51,7 @@ const Booking = () => {
                 <div className="col-md-9 ">
                     <div className="d-flex justify-content-between">
                         <h2>Booking Service</h2>
-                        <h2>Name</h2>
+                        <h2>{loggedInUser.name}</h2>
                     </div>
                     <div className="bookingBox">
                         <div className="p-4">
